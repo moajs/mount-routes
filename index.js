@@ -1,7 +1,7 @@
 var fs     = require('fs');
-// var routes = require('require-directory')(module);
 var requireDirectory = require('require-directory');
 var routes = requireDirectory(module, './routes');
+
 /**
  * Mount routes with directory.
  *

@@ -2,22 +2,14 @@
 var express = require('express')
 var app = express()
 
-
 var mount = require('./index');
 
-
+// simple
 // mount(app);
 
-
+// with path
 mount(app,'routes2');
-// console.log();
 
-
-//
-// // mount(app) ;
-// // app.get('/', function (req, res) {
-// //   res.send('Hello World')
-// // })
-//
+// start server
 app.listen(23018)
 
