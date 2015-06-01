@@ -39,7 +39,9 @@ app.listen(23018)
 
 ## 版本历史
 
+- v1.0.2 rename index to /
 - v1.0.0 初始化版本
+
 
 ## 欢迎fork和反馈
 

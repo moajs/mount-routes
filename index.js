@@ -27,7 +27,7 @@ function mount(app) {
       console.log('this is a obj');
       mount(app, r[k], pre + k + '/');
     }else if(k === 'index') {
-      app.use('/', r[k]);
+      app.use('/'+ pre, r[k]);
     }else {
       app.use('/' + pre + '' + k, r[k]);
     }
