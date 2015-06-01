@@ -2,10 +2,10 @@
 
 mount-routes = auto mount express routes with routes_folder_path
 
-  [![gitter][gitter-image]][gitter-url]
-  [![NPM version][npm-image]][npm-url]
-  [![build status][travis-image]][travis-url]
-  [![Test coverage][coveralls-image]][coveralls-url]
+[![gitter][gitter-image]][gitter-url]
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 
 ## Install
 
