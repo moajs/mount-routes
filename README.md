@@ -53,3 +53,9 @@ app.listen(23018)
 
 this repo is released under the [MIT
 License](http://www.opensource.org/licenses/MIT).
+
+
+[npm-image]: https://img.shields.io/npm/v/mount-routes.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/mount-routes
+[gitter-image]: https://badges.gitter.im/Join%20Chat.svg
+[gitter-url]: https://gitter.im/i5ting/mount-routes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
