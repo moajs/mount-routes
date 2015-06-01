@@ -1,7 +1,7 @@
 {
   "name": "mount-routes",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "mount-routes = auto mount express routes with routes_folder_path",
   "main": "index.js",
   "scripts": {
     "start":"npm publish .",
@@ -11,7 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/i5ting/mount-routes.git"
   },
-  "author": "",
+  "keywords": [
+    "express",
+    "routes",
+    "route",
+    "mount",
+    "require",
+    "directory"
+  ],
+  "author": "i5ting",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/i5ting/mount-routes/issues"
@@ -22,7 +30,6 @@
     "require-directory": "^2.1.1"
   },
   "devDependencies": {
-    "debug": "~2.2.0",
     "express": "^4.12.4"
   }
 }
