@@ -1,10 +1,10 @@
 {
   "name": "mount-routes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mount-routes = auto mount express routes with routes_folder_path",
   "main": "index.js",
   "scripts": {
-    "start":"npm publish .",
+    "start": "npm publish .",
     "test": "node test.js"
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/i5ting/mount-routes#readme",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "debug": "^2.2.0",
     "require-directory": "^2.1.1"
   },

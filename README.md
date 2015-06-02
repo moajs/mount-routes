@@ -22,7 +22,10 @@ var mount = require('mount-routes');
 // mount(app);
 
 // with path
-mount(app,'routes2');
+// mount(app, 'routes2');
+
+// with path & api dump
+mount(app, 'routes2', true);
 
 // start server
 app.listen(23018)
@@ -39,6 +42,7 @@ app.listen(23018)
 
 ## 版本历史
 
+- v1.0.3 add api dump feature
 - v1.0.2 rename index to /
 - v1.0.0 初始化版本
 
