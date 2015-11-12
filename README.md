@@ -20,12 +20,11 @@ var mount = require('mount-routes');
 
 // simple
 // mount(app);
-
 // with path
-// mount(app, 'routes2');
+// mount(app, __dirname + '/routes2');
 
 // with path & api dump
-mount(app, 'routes2', true);
+mount(app,  __dirname + '/routes2', true);
 
 // start server
 app.listen(23018)

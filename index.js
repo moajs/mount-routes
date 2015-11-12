@@ -39,7 +39,7 @@ function mount(app) {
 }
 
 function _use(app, file, path, handler) {
-  // console.dir(handler)
+  console.dir(handler)
   // console.log(handler.stack)
   app.use(path, handler);
   
@@ -84,6 +84,7 @@ function _dump(routes_folder_path) {
   
   for (var k in stack) {
     var obj = stack[k];
+    // console.dir(k)
     // console.log(obj.file + obj.method + obj.path)
     table.push(
         [routes_folder_path + obj.file, obj.method, obj.path]
