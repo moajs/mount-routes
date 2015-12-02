@@ -114,7 +114,7 @@ function mount_with_folder(app, routes_folder_path) {
   var r         = arguments[1] || './routes';
   var is_debug  = arguments[2] || false;
   
-  console.log('mount routes_folder_path = ' + r)
+  // console.log('mount routes_folder_path = ' + r)
   routes = requireDirectory(module, r);
   
   mount(app) ;
