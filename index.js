@@ -39,7 +39,7 @@ function mount(app) {
 }
 
 function _use(app, file, path, handler) {
-  console.dir(handler)
+  // console.dir(handler)
   // console.log(handler.stack)
   app.use(path, handler);
   
