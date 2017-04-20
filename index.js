@@ -1,4 +1,5 @@
 var fs     = require('fs');
+var path   = require('path');
 var requireDirectory = require('require-directory');
 var routes = requireDirectory(module, './routes');
 
@@ -115,6 +116,8 @@ function mount_with_folder(app, routes_folder_path) {
   
   var r         = arguments[1] || './routes';
   var is_debug  = arguments[2] || false;
+  
+  r = path.join(path.dirname(require.main.filename), r)
   
   // console.log('mount routes_folder_path = ' + r)
   routes = requireDirectory(module, r);
